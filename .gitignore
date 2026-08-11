@@ -1,0 +1,25 @@
+# Unity generated folders
+WebDemo/Library/
+WebDemo/Temp/
+WebDemo/Logs/
+WebDemo/UserSettings/
+WebDemo/Obj/
+WebDemo/obj/
+
+# IDE/generated project files
+WebDemo/.vs/
+WebDemo/.vscode/
+WebDemo/*.csproj
+WebDemo/*.sln
+WebDemo/*.slnx
+
+# Build output to keep out of GitHub unless intentionally included
+Builds/*_BurstDebugInformation_DoNotShip/
+Builds/**/*.pdb
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.user
+*.tmp

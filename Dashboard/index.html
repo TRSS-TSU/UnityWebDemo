@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Unity Status Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <h1>Unity Status Dashboard</h1>
+
+      <section class="card">
+        <h2>Application</h2>
+        <div class="status-row">
+          <span id="connectionIndicator" class="indicator"></span>
+        <p>Status: <span id="statusValue">Unknown</span></p>
+        </div>
+        <p>Scene: <span id="sceneValue">Unknown</span></p>
+        <p>Unity Update: <span id="timeValue">--</span></p>
+        <p>Last Received: <span id="receivedValue">--</span></p>
+      </section>
+
+      <section class="card">
+        <h2>Tracked Object</h2>
+        <p>Object: <span id="objectNameValue">--</span></p>
+        <p>X: <span id="xValue">0</span></p>
+        <p>Y: <span id="yValue">0</span></p>
+        <p>Z: <span id="zValue">0</span></p>
+        <p>Rotation: <span id="rotationValue">--</span></p>
+      </section>
+
+      <section class="card">
+        <h2>Raw JSON</h2>
+        <pre id="rawJson"></pre>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
