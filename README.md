@@ -23,7 +23,7 @@ Prerequisite: Python 3 available as `py -3` or `python`.
 4. Open the dashboard:
 
    ```text
-   http://localhost:8080/
+   Use the URL printed by the server, usually http://127.0.0.1:8080/
    ```
 
 5. Move the tracked object in Unity with WASD or the arrow keys.
@@ -44,6 +44,7 @@ http://localhost:8989/health
 
 - The Unity player is configured to launch windowed at `1024x768`.
 - Keep the Unity app running while the dashboard is open.
+- If Windows blocks port `8080`, the dashboard server will try another local port and print the URL to open.
 - If port `8989` is already in use, change the `port` value on the `StatusWebServer` object in the Unity scene and update `Dashboard/app.js` to match.
 - The dashboard server uses only Python's standard library.
 
